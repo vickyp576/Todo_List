@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <label class="switch">
+        <input type="checkbox" id="themeSwitch">
+        <span class="slider round"></span>
+      </label>
+  </nav>
+
+    <div id="todo">
+        <h1> Todo-List <h1>
+      <div id="row">
+        <input type="text" id= "input-field" />
+        <button onclick="addTask()" id="button">Add</button>
+      </div>
+        <div id="output">
+            <ol id="todo-work">
+            </ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
